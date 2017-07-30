@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    //version of typescript we compile to
+    "target": "es5",  
+    "lib": ["es2017", "dom"],
+    //module format
+    "module": "commonjs",
+    //format to find modules
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true
+    
+  }
+}
